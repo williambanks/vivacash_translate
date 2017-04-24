@@ -9,7 +9,7 @@ At the present time we only have English and are asking the community to help wi
 
 In order to contribute, you just fork the project, create a new language file that matches the english one, change out the wording and submit a pull request.
 
-The way we name files is "string.language.json" with language being a reference to the 2 digit [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language.
+The way we name files is "language.strings.json" with language being a reference to the 2 digit [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language.
 
 Every word should be changed to match the local language.
 
