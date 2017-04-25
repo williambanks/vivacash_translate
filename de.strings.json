@@ -1,0 +1,30 @@
+{
+    "Hallo" : "Willkommen bei cashola.me $1, powered by VIVA! Sagen Sie HILFE wenn Sie eine Liste der Optionen sehen möchten oder wählen Sie aus",
+    "HILFE" : {
+            "default": "Gültige Optionen sind WÄHRUNG, KONTOSTAND, SENDEN, BEZAHLEN, ABHEBUNG, EINZAHLUNG, BESTÄTIGEN, ANFORDERN, RECHNUNG, TX, Sie können HILFE OPTIONEN sagen, wenn Sie mehr Details wünschen",
+            "WÄHRUNG": "WÄHRUNG gibt eine Liste aller verfügbaren Währungen",
+            "KONTOSTAND": "KONTOSTAND [WÄHRUNG], wie KONTOSTAND USD , oder KONTOSTAND ALLE für eine Liste aller Ihrer Kontostände",
+            "SENDEN": "SENDEN [ANZAHL] [WÄHRUNG] [BESTIMMUNG] [MEMO] e.g. SENDEN 1.00 USD AN 15556789012 Vielen Dank!",
+            "BEZAHLEN": "BEZAHLEN [RECHNUNGSNUMMER] e.g. BEZAHLEN 123456789 , bezahlt die geforderter Rechnung(-snummer)",
+            "ABHEBUNG": "ABHEBUNG [ANZAHL] [WÄHRUNG] e.g. ABHEBUNG 1.00 USD wird beantwortet mit [KONTONUMMER]",
+            "EINZAHLUNG" : "EINZAHLUNG [WÄHRUNG], wird mit einer Anweisung beantwortet, wie eingezahlt werden kann.",
+            "BESTÄTIGEN" : "BESTÄTIGEN [CODE] , bestätigt einen Code als richtig, ohne ihn anzufordern.",
+            "ANFORDERN": "ANFORDERN [CODE] e.g. ANFORDERN 123456789 um einen Abhebungscode 123456789 anzufordern.",
+            "RECHNUNG": "RECHNUNG [ANZAHL] [WÄHRUNG] [TELEFON] z.B. RECHNUNG 1.00 USD 13025551212 sendet eine Rechnung and [TELEFON] gibt zurück [CODE]", 
+            "TX" : "TX listet die letzten 10 Transaktionen zum oder vom Konto auf."
+            
+        },
+    "VIELEN DANK" : "Vielen Dank!",
+    "JA" : "Ja",
+    "NEIN" : "Nein",
+    "WÄHRUNG": "$1",
+    "KONTOSTAND":"$1 $2",
+    "SENDEN": "GESENDET VON $1 $2 AN $3 $4",
+    "BEZAHLEN": ["SIND SIE SICHER, DASS SIE $1 $2 AN $3 ZAHLEN WOLLEN?","SIE HABEN $1 $2 ERFOLGREICH AN $3 GEZAHLT","ZAHLUNG MISSLUNGEN"],
+    "EINZAHLUNG" : "EINZAHLUNG AN $1 MIT MEMO $2", 
+    "WITHDRAW" : "YOUR CODE IS $1", 
+    "ABHEBUNG" : "IHR CODE IST $1", "FORDERUNG" : "SIE HABEN $1 FÜR $2 $3 ANGEFORDERT. IHR NEUER KONTOSTAND IST $4",
+    "RECHNUNG" : "EINE RECHNUNG WURDE VERSCHICKT $1 AN $2 $3 ZU ZAHLEN",
+    "TX" : "$1",
+    "funcs" :["HALLO","HILFE","WÄHRUNG", "KONTOSTAND", "SENDEN", "BEZAHLEN", "EINZAHLEN", "ABHEBEN", "ANFORDERN","RECHNUNG","TX"]
+}
