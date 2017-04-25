@@ -35,5 +35,6 @@ cashola.me is the easiest way to send or receive money worldwide.
 | USA BETA          | 12016219467      |
 | Germany BETA      | 4915735992274    |
 | South Africa Beta | 2787240508610101 |
+| Australia Beta    | 61488824142      |
 
 The difference between a live number and a beta number is that a beta number will not actually send funds.  They are otherwise identical and an account created and managed on a beta line, will become live automatically when the number is switched from beta to live.  We will try to give a couple of days warning in the issues section here when we do move a number from beta to live.
