@@ -1,0 +1,30 @@
+{
+    "HELLO" : "Welcome to cashola.me $1, powered by VIVA! Say HELP for a list of options, or choose an option",
+    "HELP" : {
+            "default": "Valid options are CURRENCY, BALANCE, SEND, PAY, WITHDRAW, DEPOSIT, VERIFY, CLAIM, BILL, TX, you can say HELP OPTION for more details",
+            "CURRENCY": "CURRENCY returns a list of all available currencies",
+            "BALANCE": "BALANCE [CURRENCY], such as BALANCE USD , or BALANCE ALL for a list of all your balances",
+            "SEND": "SEND [AMOUNT] [CURRENCY] [DESTINATION] [MEMO] e.g. SEND 1.00 USD TO 15556789012 Thank You!",
+            "PAY": "PAY [CODE] e.g. PAY 123456789 , pays the claim code",
+            "WITHDRAW": "WITHDRAW [AMOUNT] [CURRENCY] e.g. WITHDRAW 1.00 USD responds with [CODE]",
+            "DEPOSIT" : "DEPOSIT [CURRENCY] , returns instructions on how to deposit funds",
+            "VERIFY" : "VERIFY [CODE] , verifies a code as legitimate without claiming it.",
+            "CLAIM": "CLAIM [CODE] e.g. CLAIM 123456789 to claim withdrawal code 123456789",
+            "BILL": "BILL [AMOUNT] [CURRENCY] [PHONE] e.g. BILL 1.00 USD 13025551212 sends a bill to [PHONE] returns [CODE]", 
+            "TX" : "TX Lists the last 10 transactions to or from your account"
+            
+        },
+    "THANKS" : "Thank You!",
+    "YES" : "Yes",
+    "NO" : "No",
+    "CURRENCY": "$1",
+    "BALANCE":"$1 $2",
+    "SEND": "SENT $1 $2 to $3 $4",
+    "PAY": ["ARE YOU SURE YOU WANT TO PAY $1 $2 TO $3?","YOU SUCCESSFULLY PAID $1 $2 TO $3","PAYMENT FAILED"],
+    "DEPOSIT" : "DEPOSIT TO $1 WITH MEMO $2", 
+    "WITHDRAW" : "YOUR CODE IS $1", 
+    "CLAIM" : "YOU HAVE CLAIMED $1 FOR $2 $3 YOUR NEW BALANCE IS $4",
+    "BILL" : "SENT A REQUEST TO $1 TO PAY $2 $3",
+    "TX" : "$1",
+    "funcs" :["HELLO","HELP","CURRENCY", "BALANCE", "SEND", "PAY", "DEPOSIT", "WITHDRAW", "CLAIM","BILL","TX"]
+}
