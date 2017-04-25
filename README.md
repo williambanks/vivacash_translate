@@ -5,9 +5,9 @@ The idea behind Cashola is to make it possible to send money to anyone, anywhere
 Cashola's focus is on simplicity and ease of use.
 In order for Cashola to support a new language it must have a string table for that language.
 
-At the present time we only have English and are asking the community to help with translations by forking the project here on github and creating their own translation file.
+At the present time we only have English, French and German. We are asking the community to help with translations by forking the project here on github and creating their own translation file.
 
-In order to contribute, you just fork the project, create a new language file that matches the english one, change out the wording and submit a pull request.
+In order to contribute, you just fork the project, copy the english file and rename the copy, then edit the new language file that matches the english one, change out the wording and submit a pull request.
 
 The way we name files is "language.strings.json" with language being a reference to the 2 digit [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language.
 
