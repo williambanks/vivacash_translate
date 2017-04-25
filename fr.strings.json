@@ -1,0 +1,30 @@
+{
+    "HELLO" : "Bienvenue chez cashola.me $1, propulsé par VIVA! Dites AIDE pour une liste d'options, ou choisisesez une option",
+    "AIDE" : {
+            "default": "Les options possibles sont MONNAIE, SOLDE, ENVOYER, PAYER, PRELEVER, DEPOSER, VERIFIER, RECLAMER, FACTURER, TX, vous pouvez dire AIDE OPTIONS pour plus de details",
+            "MONNAIE": "MONNAIE renvoie la liste des monnaies disponibles",
+            "SOLDE": "SOLDE [MONNAIE], tel que SOLDE EUR , ou SOLDE TOUS pour une liste de tous vos soldes",
+            "ENVOYER": "ENVOYER [QUANTITE] [MONNAIE] [DESTINATION] [MEMO] e.g. ENVOYER 1.00 USD à 15556789012 Merci!",
+            "PAYER": "PAYER [CODE] e.g. PAYER 123456789 , payer le code réclamé",
+            "PRELEVER": "PRELEVER [QUANTITE] [MONNAIE] e.g. PRELEVER 1.00 USD répondre avec [CODE]",
+            "DEPOSER" : "DEPOSER [MONNAIE] , renvoie les instructions comment déposer les fonds",
+            "VERIFIER" : "VERIFIER [CODE] , vérifie la légitimité d'un code sans le réclamer.",
+            "RECLAMER": "RECLAMER [CODE] e.g. RECLAMER 123456789 pour réclamer le code de prélévement 123456789",
+            "FACTURER": "FACTURER [QUANTITE] [MONNAIE] [TELEPHONE] e.g. FACTURER 1.00 USD 13025551212 envoie une facture à [TELEPHONE] renvoie [CODE]", 
+            "TX" : "TX Liste les 10 dernières transactions à ou de votre compte."            
+        
+        },
+    "MERCI" : "Merci!",
+    "OUI" : "Oui",
+    "NON" : "Non",
+    "MONNAIE": "$1",
+    "SOLDE":"$1 $2",
+    "ENVOYER": "ENVOYER $1 $2 à $3 $4",
+    "PAYER": ["ETES-VOUS SUR DE VOULOIR PAYER $1 $2 A $3?","VOUS AVEZ PAYER $1 $2 A $3 AVEC SUCCES","LE PAIEMENT A ECHOUE"],
+    "DEPOSER" : "DEPOSER $1 AVEC MEMO $2", 
+    "PRELEVER" : "VOTRE CODE EST $1", 
+    "RECLAMER" : "VOUS AVEZ RECLAME $1 POUR $2 $3 VOTRE NOUVEAU SOLDE EST $4",
+    "FACTURER" : "ENVOYER UNE REQUETE A $1 POUR PAYER $2 $3",
+    "TX" : "$1",
+    "funcs" :["HELLO","AIDE","MONNAIE", "SOLDE", "ENVOYER", "PAYER", "DEPOSER", "PRELEVER", "RECLAMER","FACTURER","TX"]
+}
