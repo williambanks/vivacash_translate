@@ -11,7 +11,7 @@
             "VERIFIER" : "VERIFIER [CODE] , vérifie la légitimité d'un code sans le réclamer.",
             "RECLAMER": "RECLAMER [CODE] e.g. RECLAMER 123456789 pour réclamer le code de prélévement 123456789",
             "FACTURER": "FACTURER [QUANTITE] [MONNAIE] [TELEPHONE] e.g. FACTURER 1.00 USD 13025551212 envoie une facture à [TELEPHONE] renvoie [CODE]", 
-            "TX" : "TX Liste les 10 dernières transactions à ou de votre compte.",            
+            "TX" : "TX Liste les 10 dernières transactions à ou de votre compte."            
         
         },
     "MERCI" : "Merci!",
