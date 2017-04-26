@@ -1,5 +1,5 @@
 {
-    "Hallo" : "Willkommen bei cashola.me $1, powered by VIVA! Sagen Sie HILFE wenn Sie eine Liste der Optionen sehen möchten oder wählen Sie aus",
+    "Hallo" : "Willkommen bei viva.cash $1 ! Sagen Sie HILFE wenn Sie eine Liste der Optionen sehen möchten oder wählen Sie aus",
     "HILFE" : {
             "default": "Gültige Optionen sind WÄHRUNG, KONTOSTAND, SENDEN, BEZAHLEN, ABHEBUNG, EINZAHLUNG, BESTÄTIGEN, ANFORDERN, RECHNUNG, TX, Sie können HILFE OPTIONEN sagen, wenn Sie mehr Details wünschen",
             "WÄHRUNG": "WÄHRUNG gibt eine Liste aller verfügbaren Währungen",
