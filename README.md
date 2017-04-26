@@ -1,8 +1,8 @@
-# cashola_translate
+# vivacash_translate
 
-The idea behind Cashola is to make it possible to send money to anyone, anywhere in the world with little more than a "HELLO" in their local language.
+The idea behind viva.cash is to make it possible to send money to anyone, anywhere in the world with little more than a "HELLO" in their local language.
 
-Cashola's focus is on simplicity and ease of use.
+VIVA Cash's focus is on simplicity and ease of use.
 In order for Cashola to support a new language it must have a string table for that language.
 
 At the present time we only have English, French and German. We are asking the community to help with translations by forking the project here on github and creating their own translation file.
@@ -21,10 +21,10 @@ Variables are represented as $1, $2 and $3 etc.  You must account for variable n
 Phone numbers can consume up to 15 digits,and the longest currency name we support is "VIVA CROWNS" which is 11 characters.
 Therefore if possible you should try to keep the descriptions in the help section of each file to no more than 70 characters regardless of if it's ascii or unicode.
 
-This README file also doubles as a directory for Cashola
+This README file also doubles as a directory for VIVA Cash
 So please check this page for up to date number lists and if you'd like to see a country supported, please make sure we have a language file for that country and then open an issue requesting your country be added to the list of countries we support.
 
-This project provides the language translations for Cashola SMS and bot menus
+This project provides the language translations for VIVA Cash SMS and bot menus
 
 cashola.me is the easiest way to send or receive money worldwide.
 
