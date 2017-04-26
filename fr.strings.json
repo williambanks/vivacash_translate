@@ -1,5 +1,5 @@
 {
-    "HELLO" : "Bienvenue chez cashola.me $1, propulsé par VIVA! Dites AIDE pour une liste d'options, ou choisisesez une option",
+    "HELLO" : "Bienvenue chez viva.cash $1! Dites AIDE pour une liste d'options, ou choisisesez une option",
     "AIDE" : {
             "default": "Les options possibles sont MONNAIE, SOLDE, ENVOYER, PAYER, PRELEVER, DEPOSER, VERIFIER, RECLAMER, FACTURER, TX, vous pouvez dire AIDE OPTIONS pour plus de details",
             "MONNAIE": "MONNAIE renvoie la liste des monnaies disponibles",
