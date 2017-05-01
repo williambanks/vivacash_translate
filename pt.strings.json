@@ -1,0 +1,30 @@
+{
+    "OLÁ" : "Bem-vindo ao viva.cash $1! Envie AJUDA para uma lista de opções ou escolha uma opção",
+    "AJUDA" : {
+            "default": "As opções válidas são: MOEDA, SALDO, ENVIAR, PAGAR, SACAR, DEPOSITAR, VERIFICAR, REIVINDICAR, FATURAR, TX, você pode enviar OPÇÕES AJUDA para mais detalhes",
+            "MOEDA": "MOEDA exibe uma lista com todas as moedas disponíveis",
+            "SALDO": "SALDO [MOEDA], assim como SALDO USD ou SALDO TODOS para ver uma lista com todos seus saldos",
+            "ENVIAR": "ENVIAR [QUANTIDADE] [MOEDA] [DESTINO] [MEMO] p. ex. ENVIAR 1.00 USD PARA 15556789012 Obrigado!",
+            "PAGAR": "PAGAR [CODE] p. ex. PAGAR 123456789 , paga a fatura deste código",
+            "SACAR": "SACAR [QUANTIDADE] [MOEDA] p. ex. SACAR 1.00 USD responde com o [CODE]",
+            "DEPOSITAR" : "DEPOSITAR [MOEDA] , retorna instruções de como depositar fundos",
+            "VERIFICAR" : "VERIFICAR [CODE] , verifica um código como legítimo sem a necessidade de reivindicá-lo.",
+            "REIVINDICAR": "REIVINDICAR [CODE] p. ex. REIVINDICAR 123456789 para reivindicar um saque com o código 123456789",
+            "FATURAR": "FATURAR [QUANTIDADE] [MOEDA] [TELEFONE] p. ex. FATURAR 1.00 USD 13025551212 envia uma fatura para o [TELEFONE] e retorna [CODE]",
+            "TX" : "TX Lista as últimas 10 transações recebidas ou enviadas da sua conta"
+
+        },
+    "OBRIGADO" : "Obrigado!",
+    "SIM" : "Sim",
+    "NÃO" : "Não",
+    "MOEDA": "$1",
+    "SALDO":"$1 $2",
+    "ENVIAR": "ENVIADO $1 $2 to $3 $4",
+    "PAGAR": ["VOCÊ CONFIRMA QUE DESEJA PAGAR $1 $2 PARA $3?","PAGAMENTO EFETUADO COM SUCESSO $1 $2 PARA $3","FALHA NO PAGAMENTO"],
+    "DEPOSITAR" : "DEPOSITAR PARA $1 COM O MEMO $2",
+    "SACAR" : "SEU CÓDIGO É $1",
+    "REIVINDICAR" : "VOCÊ REIVINDICOU $1 PARA $2 $3 SEU NOVO SALDO É $4",
+    "FATURAR" : "ENVIE UMA SOLICITAÇÃO $1 PARA PAGAR $2 $3",
+    "TX" : "$1",
+    "funcs" :["OLÁ","AJUDA","MOEDA", "SALDO", "ENVIAR", "PAGAR", "DEPOSITAR", "SACAR", "REIVINDICAR","FATURAR","TX"]
+}
