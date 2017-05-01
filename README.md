@@ -31,6 +31,7 @@ cashola.me is the easiest way to send or receive money worldwide.
 
 | Country           | Number           | 
 |-------------------|------------------|
+| USA               | 18442348482      |
 | USA LIVE          | 14063156123      |  
 | USA BETA          | 12016219467      |
 | Germany BETA      | 4915735992274    |
