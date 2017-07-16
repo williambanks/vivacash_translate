@@ -1,0 +1,30 @@
+{
+    "HOLA" : "Bienvenido a viva.cash $1! Di AYUDA para una lista de opciones, o eliga una opcion",
+    "AYUDA" : {
+            "defecto": "Opciones validas son DIVISA, BALANCE, ENVIA, PAGA, RETIRA, DEPOSITA, VERIFICA, SOLICITA, COBRA, TX, puede decir OPCION AYUDA para mayor informacion",
+            "DIVISA": "DIVISA muestra una lista de divisas disponibles",
+            "BALANCE": "BALANCE [DIVISA], como BALANCE MXN , o BALANCE TODOS para una lista de todos sus balances",
+            "ENVIA": "ENVIA [MONTO] [DIVISA] [DESTINO] [MEMO] ej. ENVIA 10.00 MXN a 15556789012 Gracias!",
+            "PAGA": "PAGA [CODIGO] e.j. PAGA 123456789 , paga el codigo de reclamacion",
+            "RETIRA": "RETIRA [MONTO] [DIVISA] ej. RETIRA 10.00 MXN responde con [CODIGO]",
+            "DEPOSITA" : "DEPOSITA [DIVISA] , muestra instrucciones para depositar fondos",
+            "VERIFICA" : "VERIFICA [CODIGO] , verifica el codigo sin reclamarlo.",
+            "SOLICITA": "SOLICITA [CODIGO] ej. SOLICITA 123456789 para solicitar retiro de codigo 123456789",
+            "COBRA": "COBRA [MONTO] [DIVISA] [TELEFONO] ej. COBRA 10.00 MXN 13025551212 le cobra a [TELEFONO] muestra [CODIGO]", 
+            "TX" : "TX muestra las ultimas 10 transacciones de su cuenta"
+            
+        },
+    "GRACIAS" : "Gracias!",
+    "SI" : "Si",
+    "NO" : "No",
+    "DIVISA": "$10",
+    "BALANCE":"$10 $20",
+    "ENVIA": "ENVIO $10 $20 a $30 $40",
+    "PAGA": ["ESTA SEGURO QUE QUIERE PAGAR $10 $20 A $30?","HA PAGADO $10 $20 A $30 DE FORMA EXITOSA","PAGO NO EXITOSO"],
+    "DEPOSITA" : "DEPOSITA A $10 CON MEMO $20", 
+    "RETIRA" : "SU CODIGO ES $10", 
+    "SOLICITA" : "HA SOLICITADO $10 POR $20 $30 SU NUEVO BALANCE ES $40",
+    "COBRA" : "SOLICITUD ENVIADA A $10 PARA COBRAR $20 $30",
+    "TX" : "$10",
+    "func" :["HOLA","AYUDA","DIVISA", "BALANCE", "ENVIA", "PAGA", "DEPOSITA", "RETIRA", "SOLICITA","COBRA","TX"]
+}
